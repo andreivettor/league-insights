@@ -974,6 +974,18 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
+"@types/riot-api-nodejs@^0.0.30":
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/@types/riot-api-nodejs/-/riot-api-nodejs-0.0.30.tgz#de28b774b1c3b30ea1e35d3e0bd93decfcc9929e"
+  integrity sha512-XkoFN4agCjoIpwlnswAeC5+7v2+tTX878Gs+ZwIJBH69mInJTDpvCZyGZwEO5FWNkcrQwGAM3nfjfwkLy0lDBw==
+  dependencies:
+    "@types/riot-games-api" "*"
+
+"@types/riot-games-api@*":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/riot-games-api/-/riot-games-api-0.0.29.tgz#bf0db1aee6a6bf5f7fd01b69a06fb9f1eed7b140"
+  integrity sha512-3llTzb3+WzdFA8IdE4lbKE4T6C1+z+7gQGZIw1reJyCGZt1y9JWYUGoJzjYVSsm3ZjJVXfGkX1/IEvkGTj2dZA==
+
 "@types/serve-static@*":
   version "1.13.10"
   resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.10.tgz#f5e0ce8797d2d7cc5ebeda48a52c96c4fa47a8d9"
@@ -1928,6 +1940,26 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+dotenv-cli@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/dotenv-cli/-/dotenv-cli-5.1.0.tgz#0d2942b089082da0157f9b26bd6c5c4dd51ef48e"
+  integrity sha512-NoEZAlKo9WVrG0b3i9mBxdD6INdDuGqdgR74t68t8084QcI077/1MnPerRW1odl+9uULhcdnQp2U0pYVppKHOA==
+  dependencies:
+    cross-spawn "^7.0.3"
+    dotenv "^16.0.0"
+    dotenv-expand "^8.0.1"
+    minimist "^1.2.5"
+
+dotenv-expand@^8.0.1:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-8.0.3.tgz#29016757455bcc748469c83a19b36aaf2b83dd6e"
+  integrity sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==
+
+dotenv@^16.0.0:
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.1.tgz#8f8f9d94876c35dac989876a5d3a82a267fdce1d"
+  integrity sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -3426,7 +3458,7 @@ minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@1.2.6, minimist@^1.2.0, minimist@^1.2.6:
+minimist@1.2.6, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
